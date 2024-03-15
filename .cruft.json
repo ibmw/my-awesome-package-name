@@ -1,0 +1,41 @@
+{
+  "template": "https://github.com/ibmw/cookiecutter-chic-pypackage",
+  "commit": "0d944229539cb5764630d6cb60f8564de93f3dea",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "package_name": "My Awesome Package Name",
+      "__package_name_kebab_case": "my-awesome-package-name",
+      "__package_name_snake_case": "my_awesome_package_name",
+      "package_description": "This Python package is so awesome, it practically codes itself... and then makes coffee",
+      "github_username": "ibmw",
+      "package_url": "https://github.com/ibmw/my-awesome-package-name",
+      "author_name": "Olivier Maillot",
+      "author_email": "contact@olivier-maillot.fr",
+      "python_version": "3.12",
+      "docker_image": "python:$PYTHON_VERSION-slim",
+      "development_environment": "simple",
+      "with_conventional_commits": "0",
+      "with_fastapi_api": "0",
+      "with_jupyter_lab": "0",
+      "with_pydantic_typing": "0",
+      "with_streamlit_app": "0",
+      "with_typer_cli": "0",
+      "with_mkdocs": "1",
+      "with_code_of_conduct": "0",
+      "with_contributing_file": "0",
+      "with_security_file": "0",
+      "_copy_without_render": [
+        "docs/history.md",
+        "docs/contributing.md",
+        "docs/security.md",
+        "docs/code_of_conduct.md",
+        "docs/index.md",
+        ".github/workflows/*.yml",
+        ".docstring.tpl"
+      ],
+      "_template": "https://github.com/ibmw/cookiecutter-chic-pypackage"
+    }
+  },
+  "directory": null
+}
